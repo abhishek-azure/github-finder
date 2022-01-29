@@ -1,8 +1,10 @@
+import UserResults from "../users/UserResults";
+
 function Home() {
     return (
-        <div>
-            <h1 className='text-6xl'>welcome</h1>
-        </div>
+        <>
+            <UserResults/>
+        </>
     );
 }
 
